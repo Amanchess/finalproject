@@ -178,7 +178,7 @@ body {
    background-color:purple;
    text-align: center;
 }
-#s{
+.s{
     background:radial-gradient(blue,purple,darkblue);
 border-radius:0 20px 0 20px;
 }
