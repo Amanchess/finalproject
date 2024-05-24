@@ -178,3 +178,6 @@ body {
    background-color:purple;
    text-align: center;
 }
+#s{
+    background:radial-gradient(blue,purple,darkblue);
+}
