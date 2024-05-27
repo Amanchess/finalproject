@@ -26,7 +26,7 @@ prevButton.addEventListener('click', () => {
 
 nextButton.addEventListener('click', () => {
     if (currentSectionIndex >= 5)
-        window.location.href = "card.html"    
+        window.location.href = "Amanchess.github.io/Panda"    
 
     if (currentSectionIndex < sections.length - 1) {
         scrollToSection(currentSectionIndex + 1);
