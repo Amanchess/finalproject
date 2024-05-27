@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(to right, #ec008c, #bd0fb4);
+    background-size: 100% 100vh;
+}
+
+.sections {
+    position: relative;
+    height: calc(100vh - 100px); /* Adjust for the fixed buttons and progress bar */
+    overflow-y: scroll;
+    overflow: hidden;
+    background-color: hsla(89, 43%, 51%, 0);
+}
+
+.section {
+    height: 90vh; /* Each section takes up the full viewport height */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+.progress-bar {
+    position: fixed;
+     /* Adjust based on the height of the buttons */
+    top: 5px;
+    width: 90%;
+    background-color: rgba(red, green, blue, 0);
+    /* border: 2px solid rgb(99, 5, 99); */
+    /* border: 2px dashed white; */
+    border: 2px dotted white;
+    height: 15px;
+    margin-left: 4%;
+    border-radius: 5px 5px;
+
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #a8ff78, #78ffd6);
+    transition: width 1s;
+}
+
+.mybuttons {
+    display: inline-block;
+    padding: 7px;
+    color: white;
+    border: 2px dashed violet;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin-right: 10px;
+    font-family: "Pacifico", cursive;
+    transition: border-radius 90ms;
+    text-shadow: 2px 3px 2px #493240;
+    user-select: none;
+}
+
+.mybuttons:hover {
+    border: 2px solid violet;
+    border-radius: 0px;
+}
+
+.mybuttons:active {
+    border: 2px solid violet;
+    border-radius: 0px;
+}
+
+.image {
+    background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 50px 15px #0d014d;
+}
+
+.glowing-card {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(#FF0099, #493240);
+    border: 2px dashed white;
+    box-shadow: 0 0 50px 15px #493240;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(#ad5389, #3c1053);
+    border-radius: 100%;
+    border: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-main {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0 0 50px 15px #493240;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-img {
+    width: 90%;
+    height: 90%;
+    border-radius: 0px 0px 20px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: block;
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+}
+
+.img-box {
+    display: block;
+    height: 95%;
+    width: 95%;
+}
+
+.special {
+    height: 95%;
+    width: 95%;
+    border-radius: 0px 0px 20px 20px;   
+}
+.abcd {
+   background-color:purple;
+   text-align: center;
+  }
