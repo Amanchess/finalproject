@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="sections">
+        <section class="section" id="section1">
+            <div class="main" onclick="popUp(0)">
+                <div class="inner-main">
+                    <img class="img" src="./IMG_COM_202405271037191110.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section2">
+            <div class="glowing-card" onclick="popUp(1)">
+                <div class="inner">
+                    <img class="img-box" src="./IMG_COM_202405271038207070.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section3"> 
+            <div class="main" onclick="popUp(2)">
+                <div class="inner-main">
+                    <img class="img" src="./IMG_COM_202405271037573740.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section4">
+            <div class="glowing-card" onclick="popUp(3)">
+                <div class="inner">
+                    <img class="img-box" src="./IMG_COM_202405271036325120.jpg">
+                </div>
+            </div>    
+        </section>
+
+        <section class="section" id="section5"> 
+            <div class="main" onclick="popUp(4)">
+                <div class="inner-main">
+                    <img class="img" src="./IMG_COM_202405271037030990.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section6">
+            <div class="image" onclick="popUp(5)">
+                <div class="inner-img">
+                    <img class="special" src="./IMG_COM_202405271037353390.jpg">
+                </div>
+            </div>    
+        </section>
+    </div>
+
+    <div class="buttons">
+        <span class="mybuttons left" id="prevButton">Previous</span>
+        <span class="mybuttons right" id="nextButton">Next</span>
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <audio controls style=" display:none;" loop   id="music"  >
+        <source  src="./Raatan Lambiyan_64(PagalWorld.com.sb).mp3">
+        <script>
+          window.addEventListener("click",play);
+          function play() { document.getElementById("music").play();
+          }
+        </script> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+  </html>
