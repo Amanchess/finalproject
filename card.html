@@ -15,7 +15,7 @@
 /*    font-family: 'Lobster', serif;  */
 font-family: 'blackletter', cursive;
  }
-.bg_heart{
+bg_heart{
   position:relative;
   top:0;
   left:0;
@@ -23,8 +23,8 @@ font-family: 'blackletter', cursive;
   height:100%;
  overflow:hidden;
  /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOyxoMfoyRy9tny0b1DgbPCH_gar-dDu2yZg&usqp=CAU'); */
- background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7aYv9sexvLqj2CFakfe5Rm8S3cgV_lbtFDpq7k7wyodkWwtztTw09Jo&s=10");
-  /* background-image:url("https://i.pinimg.com/originals/51/d8/37/51d8374126446d495348b6032202126f.jpg"); */
+ background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7aYv9sexvLqj2CFakfe5Rm8S3cgV_lbtFDpq7k7wyodkWwtztTw09Jo&s=101");
+  /* background-image:url("https://i.pinimg.com/originals/51/d8/37/51d8374126446d495348b6032202126f1.jpg"); */
   background-size:100% 100%;
   z-index:-1;
 }
@@ -42,7 +42,7 @@ font-family: 'blackletter', cursive;
 }
 
 
-.heart{
+heart{
   position:absolute;
   top:-50%;
   transform:rotate(-45deg);
@@ -50,7 +50,7 @@ font-family: 'blackletter', cursive;
   -moz-transform:rotate(-45deg);
   -m-transform:rotate(-45deg);
 }
-.heart:before{
+heart:before{
   position:absolute;
   top:-50%;
   left:0;
@@ -61,7 +61,7 @@ font-family: 'blackletter', cursive;
   background:inherit;
   border-radius:100%;
 }
-.heart:after{
+heart:after{
   position:absolute;
   top:0;
   right:-50%;
@@ -91,7 +91,7 @@ font-family: 'blackletter', cursive;
 
 <body id="x" onclick="play()">
 
-  <audio id="a" src="https://www.dropbox.com/scl/fi/eoldfxk6mumq1itjx5jmt/Mp3-Editor_240528130722.mp3?rlkey=590b4ob61fbrsxolahat1ydg9&dl=1" autoplay loop></audio>
+  <audio id="a" src="https://www.dropbox.com/scl/fi/eoldfxk6mumq1itjx5jmt/Mp3-Editor_240528130722.mp3?rlkey=590b4ob61fbrsxolahat1ydg9&dl=0" autoplay loop></audio>
 
 
 <div class="bg_heart">
@@ -138,7 +138,7 @@ function typeWriter() {
       document.getElementById("text1").innerHTML = ''
     else if(txt1.charAt(i)=='|')
       {
-        $(".bg_heart").css("background-image", "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1krEU8XQ6FmpLIqytA716kLF2DLpnyxF8NgauiHGXhPqMW3kIHgZZ51Uc&s=10')")
+        $(".bg_heart").css("background-image", "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1krEU8XQ6FmpLIqytA716kLF2DLpnyxF8NgauiHGXhPqMW3kIHgZZ51Uc&s=101')")
       }
     else
       document.getElementById("text1").innerHTML += txt1.charAt(i);
